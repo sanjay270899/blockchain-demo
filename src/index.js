@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import "./config/twind.config";
+import "twind/shim";
 
 ReactDOM.render(
   <React.StrictMode>Hello</React.StrictMode>,
