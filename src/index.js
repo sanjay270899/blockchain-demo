@@ -4,9 +4,12 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import "./config/twind.config";
 import "twind/shim";
+import { Home } from "./pages";
 
 ReactDOM.render(
-  <React.StrictMode>Hello</React.StrictMode>,
+  <React.StrictMode>
+    <Home />
+  </React.StrictMode>,
   document.getElementById("root")
 );
 
