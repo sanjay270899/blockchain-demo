@@ -89,7 +89,7 @@ const Block = props => {
           )}
           <tr>
             <td className="">Hash</td>
-            <td className="">
+            <td className="" data-tip={hash}>
               <Input type="text" value={hash} disabled className="truncate" />
             </td>
           </tr>

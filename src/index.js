@@ -5,10 +5,12 @@ import reportWebVitals from "./reportWebVitals";
 import "./config/twind.config";
 import "twind/shim";
 import { Home } from "./pages";
+import ReactTooltip from "react-tooltip";
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+    <ReactTooltip place="bottom" type="light" effect="solid" border />
   </React.StrictMode>,
   document.getElementById("root")
 );
