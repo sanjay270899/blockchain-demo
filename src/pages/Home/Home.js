@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <Header />
       <div className="flex flex-col justify-center items-center space-y-5 p-5 bg-gray-50">
-        <Section title="1. Hash">
+        <Section title="1. SHA256 Hash">
           <HashSection />
         </Section>
         <Section title="2. Block">

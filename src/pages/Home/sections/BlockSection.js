@@ -5,9 +5,13 @@ import { computeHash } from "../../../utils/crypto";
 export const BlockSection = () => {
   const [block, setBlock] = useState({
     blockId: 1,
-    nonce: 15,
-    data: "",
-    hash: computeHash({ blockId: 1, nonce: 15, data: "" })
+    nonce: 38724,
+    data: "100 RS: person001 -> person002",
+    hash: computeHash({
+      blockId: 1,
+      nonce: 38724,
+      data: "100 RS: person001 -> person002"
+    })
   });
 
   const onChange = ({ blockId, nonce, data }) => {
